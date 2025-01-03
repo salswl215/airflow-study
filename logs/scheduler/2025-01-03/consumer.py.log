@@ -1,0 +1,7 @@
+[2025-01-03T06:18:14.091+0000] {processor.py:154} INFO - Started process (PID=45) to work on /opt/airflow/dags/consumer.py
+[2025-01-03T06:18:14.093+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/consumer.py for tasks to queue
+[2025-01-03T06:18:14.094+0000] {logging_mixin.py:120} INFO - [2025-01-03T06:18:14.094+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/consumer.py
+[2025-01-03T06:18:14.122+0000] {processor.py:766} INFO - DAG(s) dict_keys(['consumer']) retrieved from /opt/airflow/dags/consumer.py
+[2025-01-03T06:18:14.201+0000] {logging_mixin.py:120} INFO - [2025-01-03T06:18:14.201+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-01-03T06:18:14.224+0000] {logging_mixin.py:120} INFO - [2025-01-03T06:18:14.224+0000] {dag.py:3340} INFO - Setting next_dagrun for consumer to None, run_after=None
+[2025-01-03T06:18:14.255+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/consumer.py took 0.167 seconds
